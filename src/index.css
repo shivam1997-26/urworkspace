@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { font-family: Inter, system-ui, sans-serif; color: #1c1b19; background: #faf7ef; letter-spacing: -0.005em; }
+a { text-decoration: none; color: inherit; }
+h1, h2, h3 { letter-spacing: -0.03em; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
